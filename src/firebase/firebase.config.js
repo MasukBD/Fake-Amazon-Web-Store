@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyBP9RFc0CqSUzcwdZ_rPn4MOnSJjJ3RJqw",
-    authDomain: "replica-with-fire-auth.firebaseapp.com",
-    projectId: "replica-with-fire-auth",
-    storageBucket: "replica-with-fire-auth.appspot.com",
-    messagingSenderId: "768848977451",
-    appId: "1:768848977451:web:d4086bd7f1046bc137546e"
+    apiKey: import.meta.env.VITE_FIRE_APIKEY,
+    authDomain: import.meta.env.VITE_FIRE_AUTHDOMAIN,
+    projectId: import.meta.env.VITE_FIRE_PROJECTID,
+    storageBucket: import.meta.env.VITE_FIRE_STORAGEBUCKET,
+    messagingSenderId: import.meta.env.VITE_FIRE_MESSAGINGSENDERID,
+    appId: import.meta.env.VITE_FIRE_APPID
 };
 
 // Initialize Firebase

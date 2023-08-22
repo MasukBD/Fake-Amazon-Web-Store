@@ -1,0 +1,64 @@
+.from-page {
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.from-container {
+    border: 2px solid black;
+    padding: 10px;
+    width: 300px;
+}
+
+.from-title {
+    text-align: center;
+}
+
+form input {
+    width: 95%;
+    padding: 10px 5px;
+    margin: 5px auto;
+}
+
+
+.form-submit {
+    background-color: rgb(255, 209, 123);
+    border: none;
+    font-weight: 700;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 15px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.hr-line {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.google-sign-in img {
+    width: 8%;
+}
+
+.google-sign-in {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    border: 1px solid black;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.warning {
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+}

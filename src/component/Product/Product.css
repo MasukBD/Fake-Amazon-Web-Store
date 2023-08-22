@@ -1,0 +1,43 @@
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product {
+    height: 550px;
+    border: 2px solid brown;
+    border-radius: 5px;
+    position: relative;
+}
+
+.product-info {
+    padding: 7px;
+}
+
+.product-heading {
+    margin-top: 0;
+}
+
+.product-price,
+.seller,
+.ratings {
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.cart-button {
+    width: 100%;
+    background-color: rgb(255, 203, 135);
+    position: absolute;
+    bottom: 0;
+}
+
+.cart-button:hover {
+    background-color: rgb(253, 183, 51);
+}
+
+@media screen and (max-width: 576px) {
+    .product {
+        height: 620px;
+    }
+}

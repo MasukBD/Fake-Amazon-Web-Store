@@ -1,0 +1,33 @@
+.order-product-details {
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.element-details {
+    display: flex;
+    gap: 10px;
+
+}
+
+.element-details img {
+    width: 91px;
+    height: 91px;
+    border-radius: 5px;
+}
+
+.detais-info p,
+.detais-info h5 {
+    margin: 0 auto;
+}
+
+.tras-can {
+    padding: 15px 20px;
+    border-radius: 100%;
+    background-color: rgba(255, 0, 0, 0.178);
+    cursor: pointer;
+}

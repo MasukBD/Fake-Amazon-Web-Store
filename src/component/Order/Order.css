@@ -1,0 +1,32 @@
+.order-heading {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.order-details {
+    width: 70%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.ordered-product,
+.cart-details {
+    width: 80%;
+}
+
+@media screen and (max-width: 576px) {
+
+    .cart-details,
+    .ordered-product {
+        width: 100%;
+    }
+
+    .order-details {
+        flex-direction: column;
+        gap: 20px;
+        width: 90%;
+        margin: 0 auto;
+    }
+}

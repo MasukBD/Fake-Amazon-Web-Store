@@ -1,0 +1,43 @@
+.header {
+    height: 80px;
+    background-color: #1C2B35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.header img {
+    width: 120px;
+}
+
+.header a {
+    color: #ffffff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: orange;
+}
+
+.welcome-message {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.active {
+    font-weight: 700;
+    color: orange !important;
+}
+
+@media screen and (max-width: 576px) {
+    .header {
+        flex-direction: column;
+    }
+}

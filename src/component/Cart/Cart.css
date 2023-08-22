@@ -1,0 +1,40 @@
+.cart {
+    text-align: center;
+    background-color: rgb(252, 206, 122);
+    border-radius: 5px;
+    padding: 20px;
+    position: sticky;
+    top: 80px;
+}
+
+.clearCartBtn {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    background-color: orangered;
+    font-weight: 700;
+    margin: 10px auto;
+}
+
+.clearCartBtn:hover {
+    background-color: red;
+}
+
+.check-out-btn {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    background-color: goldenrod;
+    font-weight: 700;
+    margin: 10px auto;
+}
+
+.check-out-btn:hover {
+    background-color: green;
+}

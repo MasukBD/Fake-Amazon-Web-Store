@@ -18,6 +18,19 @@
     display: block;
 }
 
+.pagination {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.pagination button {
+    margin: 5px;
+}
+
+.pagination .selected {
+    background-color: rgb(255, 203, 135);
+}
+
 @media only screen and (max-width: 576px) {
     .shop-container {
         grid-template-columns: repeat(1, 1fr);

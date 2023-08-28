@@ -2,7 +2,7 @@
 import React, { useContext } from 'react';
 import './Header.css'
 import logo from '../../images/Logo.png';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { AuthSender } from '../ContextProvider/ContextProvider';
 
 const Header = () => {
@@ -19,7 +19,7 @@ const Header = () => {
 
     return (
         <div className='header'>
-            <img src={logo} alt="" />
+            <Link to="/"><img src={logo} alt="" /></Link>
             {
                 user && <span className='welcome-message'>Welcome {user.displayName}</span>
             }

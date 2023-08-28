@@ -3,8 +3,8 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div style={{ textAlign: 'center', marginTop: '50px' }}>
-            <p>© All Right Reserved. Ilius Mahfuz 2023</p>
+        <div style={{ textAlign: 'center', paddingTop: '30px' }}>
+            <p style={{ marginBottom: '0px' }}>© All Right Reserved. Ilius Mahfuz 2023</p>
         </div>
     );
 };

@@ -39,7 +39,7 @@ const Shop = () => {
     // pagination works finish Here 
 
     useEffect(() => {
-        fetch(`http://localhost:5000/products?page=${currentPage}&limit=${itemsPerPage}`)
+        fetch(`https://fake-amazon-server-mocha.vercel.app/products?page=${currentPage}&limit=${itemsPerPage}`)
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [currentPage, itemsPerPage])
@@ -49,7 +49,7 @@ const Shop = () => {
         //step 1 get cart item from local storage 
         const existedCart = getShoppingCart();
         const cartItems = Object.keys(existedCart);
-        fetch('http://localhost:5000/cartProducts', {
+        fetch('https://fake-amazon-server-mocha.vercel.app/cartProducts', {
             method: "POST",
             headers: {
                 'content-type': 'application/json'

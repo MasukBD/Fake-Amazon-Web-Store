@@ -3,7 +3,7 @@ import { getShoppingCart } from "../../utilities/fakedb";
 const handleCartPreview = async () => {
     const getItemFromStorage = getShoppingCart();
     const cartItems = Object.keys(getItemFromStorage);
-    const productData = await fetch('http://localhost:5000/cartProducts', {
+    const productData = await fetch('https://fake-amazon-server-mocha.vercel.app/cartProducts', {
         method: "POST",
         headers: {
             'content-type': 'application/json'

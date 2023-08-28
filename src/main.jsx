@@ -28,7 +28,7 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Shop></Shop>,
-        loader: () => fetch('http://localhost:5000/productCount')
+        loader: () => fetch('https://fake-amazon-server-mocha.vercel.app/productCount')
       },
       {
         path: "/order",

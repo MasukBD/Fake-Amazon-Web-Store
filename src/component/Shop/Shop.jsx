@@ -6,8 +6,7 @@ import Cart from '../Cart/Cart';
 import { addToDb, deleteShoppingCart, getShoppingCart } from '../../utilities/fakedb';
 import { Link, useLoaderData } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCalendarCheck } from '@fortawesome/free-solid-svg-icons'
-import { key } from 'localforage';
+import { faCalendarCheck } from '@fortawesome/free-solid-svg-icons';
 
 const Shop = () => {
     const [products, setProducts] = useState([]);
